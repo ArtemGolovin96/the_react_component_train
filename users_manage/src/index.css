@@ -1,0 +1,62 @@
+.all {
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  padding: 30px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.userlistcontainer{
+  text-align: center;
+  background-color: rgb(163, 199, 255);
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin: 20px 0px;
+}
+
+.buttonscontainer {
+  margin: 20px 20px 20px 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inputform {
+  margin: 3px;
+}
+
+.addbutton {
+  margin: 0px 0px 0px 90px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.buttonsfilters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.inputsearch {
+  width: 100px;
+}
